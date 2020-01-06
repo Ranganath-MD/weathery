@@ -1,0 +1,79 @@
+
+.App {
+  background: rgb(6,5,22);
+  background: linear-gradient(90deg, rgba(6,5,22,1) 0%, rgba(44,6,45,1) 100%, rgba(32,10,9,1) 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+}
+
+.title{
+  font-size : 50px;
+  margin-top : 20% !important;
+  color : rgb(21, 209, 21);
+  font-weight: bolder;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.card-title {
+  color : rgb(135, 146, 135);
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  float: left;
+
+}
+.content{
+  margin-top: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.weather-content{
+  /* display: flex;
+  flex-direction: row-reverse; */
+  text-align: left;
+  padding: 10px 0px 0px 0px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.location{
+  font-size: x-large;
+  font-weight: 400;
+  color: rgb(145, 144, 131);
+  padding-bottom: 18px;
+  padding-top: 18px;
+}
+.weather-stats{
+  color: rgb(54, 73, 66);
+}
+.subtitle{
+  color : white;
+  font-family: monospace;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.btn {
+  margin-top : 20px;
+  /* margin-bottom: 10px; */
+}
+.cityname {
+  color : white;
+  margin-top : 40px;
+  font-family : 'Courier New', Courier, monospace;
+}
+.wdesc{
+  color: rgb(71, 83, 59);
+}
+
+.temp{
+  font-size: 50px;
+  color : rgb(170, 148, 148);
+
+}
+
+.desc{
+  color : white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
